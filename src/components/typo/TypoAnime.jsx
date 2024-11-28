@@ -6,11 +6,11 @@ const TypoAnime = () => {
       sequence={[
         'Agrotech',
         1000, 
-        'Cryptocurrency',
+        'Forex/crypto',
         1000,
-        'Stock Markets',
+        'Real estate',
         1000,
-        'oil $ Gas',
+        'Gold stock',
         1000
       ]}
       wrapper="span"
