@@ -81,9 +81,7 @@ const Plan = () => {
             withdrawMethods.map((withdrawmethod) => (
               <div class="pack-container" key={withdrawmethod.id} data-aos="fade-up">
             <div class="pack-header">
-              <p class="title">
-                {withdrawmethod.type}
-              </p>
+              <h3>{withdrawmethod.type}</h3>
               <div class="price-container">
                 <span>%</span>{withdrawmethod.percent}
                 <span>/day</span>
