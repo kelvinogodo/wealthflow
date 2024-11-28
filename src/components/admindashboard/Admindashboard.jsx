@@ -52,7 +52,7 @@ const Admindashboard = ({ route }) => {
                 'name': `${res.name}`,
                 'email': `${res.email}`,
                 'message': `${res.message}`,
-                'reply_to': `support@diversewealth.org`,
+                'reply_to': `support@wealthflowinvest.org`,
                 'subject':`${res.subject}`
             }
           };
@@ -75,7 +75,7 @@ const Admindashboard = ({ route }) => {
                 'name': `${res.uplineName}`,
                 'email': `${res.uplineEmail}`,
                 'message': `${res.uplineMessage}`,
-                'reply_to': `support@diversewealth.org`,
+                'reply_to': `support@wealthflowinvest.org`,
                 'subject':`${res.uplineSubject}`
             }
         };
@@ -133,7 +133,7 @@ const Admindashboard = ({ route }) => {
                 'name': `${name}`,
                 'email': `${activeEmail}`,
                 'message': `Congratulations! your withdrawal $${awaitedData.amount} has been approved. confirm withdrawal of $${awaitedData.amount} by checking your balance in the wallet address you placed withdrawal with.`,
-                'reply_to': `support@diversewealth.org`,
+                'reply_to': `support@wealthflowinvest.org`,
                 'subject':`successful withdrawal`
             }
       };
@@ -291,11 +291,11 @@ const Admindashboard = ({ route }) => {
                     login()
                     }}>
           <div class="logo_container" onClick={()=>navigate('/')}>
-            <img src="/20231219_090754.png" alt="" />
+            <img src="/wealtflowlogo6.png" alt="" />
           </div>
           <div class="title_container">
             <p class="titles">welcome admin</p>
-             <span class="subtitle">Welcome to Diversewealth, login and enjoy the best investment experience.</span>
+             <span class="subtitle">Welcome to wealthflowinvest, login and enjoy the best investment experience.</span>
           </div>
           <br/>
           <div class="input_containers">
@@ -305,7 +305,7 @@ const Admindashboard = ({ route }) => {
               <path stroke-linejoin="round" stroke-width="1.5" stroke="#141B34" d="M2.01577 13.4756C2.08114 16.5412 2.11383 18.0739 3.24496 19.2094C4.37608 20.3448 5.95033 20.3843 9.09883 20.4634C11.0393 20.5122 12.9607 20.5122 14.9012 20.4634C18.0497 20.3843 19.6239 20.3448 20.7551 19.2094C21.8862 18.0739 21.9189 16.5412 21.9842 13.4756C22.0053 12.4899 22.0053 11.5101 21.9842 10.5244C21.9189 7.45886 21.8862 5.92609 20.7551 4.79066C19.6239 3.65523 18.0497 3.61568 14.9012 3.53657C12.9607 3.48781 11.0393 3.48781 9.09882 3.53656C5.95033 3.61566 4.37608 3.65521 3.24495 4.79065C2.11382 5.92608 2.08114 7.45885 2.01576 10.5244C1.99474 11.5101 1.99475 12.4899 2.01577 13.4756Z"></path>
             </svg>
             <input onChange={(e)=>{
-                        setEmail(e.target.value.trim())
+                        setEmail(e.target.value.trim().toLocaleLowerCase())
                       }} required placeholder="name@mail.com" title="Inpit title" name="input-name" type="text" class="input_field" id="email_field" />
           </div>
           <div class="input_containers">
@@ -317,7 +317,7 @@ const Admindashboard = ({ route }) => {
             </svg>
             <input type={`${showPassword ? "text" : "password"}`} autocomplete="off"
                         onChange={(e)=>{
-                          setPassword(e.target.value.toLocaleLowerCase().trim())
+                          setPassword(e.target.value.trim())
               }} placeholder="Password" required title="Inpit title" name="input-name" className="input_field" id="password_field" />
             <div className="eye-container" onClick={()=>{setShowPassword(!showPassword)}}>
                 {
