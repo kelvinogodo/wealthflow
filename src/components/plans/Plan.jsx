@@ -7,63 +7,63 @@ const Plan = () => {
     const [withdrawMethods,setWithdrawalMethods] = useState([
       {
         id:1,
-        min:'100',
-        max:'2,000',
+        min:'500',
+        max:'5,000',
         image:'/btc.png',
         method:'BTC',
         type:'basic plan',
         percent:'5',
-        duration:'3 day(s)'
+        duration:'5 day(s)'
       },
       {
         id:2,
-        min:'2,001',
-        max:'5,000',
+        min:'6,000',
+        max:'10,000',
         image:'/bnb.png',
         method:'USDT',
         type:'forex/crypto plan',
-        percent:'7',
-        duration:'4 day(s)'
+        percent:'15',
+        duration:'6 day(s)'
       },
       {
         id:3,
-        min:'5,001',
-        max:'15,000',
+        min:'11,000',
+        max:'20,000',
         image:'/tron.png',
         method:'tether(TRC20)',
         type:'agro-tech plan',
-        percent:'9',
+        percent:'20',
         duration:'7 day(s)'
       },
       {
         id:4,
-        min:'15,001',
-        max:'30,000',
+        min:'21,000',
+        max:'90,000',
         image:'/tron.png',
         method:'tether(TRC20)',
         type:'gold-stock plan',
-        percent:'11',
+        percent:'25',
         duration:'8 day(s)'
       },
       {
         id:5,
-        min:'30,001',
-        max:'100,000',
+        min:'100,000',
+        max:'5,000,000',
         image:'/tron.png',
         method:'tether(TRC20)',
         type:'oil and gas plan',
-        percent:'15',
-        duration:'10 day(s)'
+        percent:'30',
+        duration:'9 day(s)'
       },
       {
         id:6,
-        min:'100,001',
-        max:'1,000,000',
+        min:'6,000,000',
+        max:'10,000,000',
         image:'/tron.png',
         method:'tether(TRC20)',
         type:'real estate plan',
-        percent:'18',
-        duration:'12 day(s)'
+        percent:'35',
+        duration:'10 day(s)'
       },
       ])
   return (
