@@ -102,7 +102,7 @@ function App() {
               title: `An Investor from ${myArray[Math.floor(Math.random() * num)].country} just withdrew ${myArray[Math.floor(Math.random() * num)].amount}...`
             })
     }, 60000);
-    const route = 'https://wealthflowbackend.vercel.app/'
+    const route = 'https://wealthflowbackend.vercel.app'
     const callCron = async () => {
       await fetch(`${route}/api/cron`)
     }
@@ -113,7 +113,7 @@ function App() {
   
   return (
     <>
-    <AnimatePresence exitBeforeEnter>
+    <AnimatePresence >
         <Router>
         <motion.div className="App"
         key={Routes.Route}
@@ -161,9 +161,9 @@ function App() {
         </motion.div>
       </Router>
       </AnimatePresence>
-      <span className="whatsapp-icon">
+      {/* <span className="whatsapp-icon">
         <a href="https://api.whatsapp.com/send?phone=16822969023" target='blank'><IoLogoWhatsapp  /></a> 
-      </span>
+      </span> */}
       <div className="iframe-container">
       <iframe src="https://widget.coinlib.io/widget?type=horizontal_v2&amp;theme=dark&amp;pref_coin_id=1505&amp;invert_hover=" width="100%" height="36" scrolling="auto" marginWidth="0" marginHeight="0" frameborder="0" border="0" style={{border:0,margin:0,padding:0,}}>
       </iframe>
