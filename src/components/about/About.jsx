@@ -23,7 +23,7 @@ const About = () => {
             </button>
         </div>
         <div className="about-img-container">
-            <img src="/wealtflowlogo1.jpg" data-aos="fade-up" className='about-img'/>
+            <img src="/office-building.png" data-aos="fade-up" className='about-img'/>
         </div>
         </div>
     </div>

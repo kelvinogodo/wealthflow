@@ -36,13 +36,13 @@ const Contact = () => {
                 Any question? Reach out to us and we’ll get back to you shortly.
             </p>
             <div className="contact-card" data-aos="fade-up">
-                <a href='' className="ball contact-ball">
+                <a href='https://t.me/wealthflowinvest' className="ball contact-ball">
                     <FaTelegramPlane />
                 </a>
-                <a href='' className="ball contact-ball">
+                <a href='mailto:wealthflowinvest@gmail.com' className="ball contact-ball">
                     <FiMail />
                 </a>
-                <a href='' className="ball contact-ball">
+                <a href="https://api.whatsapp.com/send?phone=16822969023"className="ball contact-ball">
                     <BsWhatsapp />
                 </a>
             </div>
