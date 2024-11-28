@@ -68,7 +68,7 @@ const Signup = async () => {
     if (result.status === 'error') {
       Toast.fire({
         icon: 'warning',
-        title: 'invalid details, please try again',
+        title: 'Email already exists, please try again',
       });
       return;
     }

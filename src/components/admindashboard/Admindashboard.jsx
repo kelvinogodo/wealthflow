@@ -45,14 +45,14 @@ const Admindashboard = ({ route }) => {
             title: `Acoount credited with  $${res.funded} USD`
         })
         const data = {
-            service_id: 'service_6ubu4hr',
-            template_id: 'template_uo56jtl',
-            user_id: 'dne8aPihHWPGmRSbG',
+            service_id: 'service_061fz1g',
+            template_id: 'template_l9l5tbe',
+            user_id: 'h_qHWll01moUNdevx',
             template_params: {
                 'name': `${res.name}`,
                 'email': `${res.email}`,
                 'message': `${res.message}`,
-                'reply_to': `support@wealthflowinvest.org`,
+                'reply_to': `wealthflowinvest@gmail.com`,
                 'subject':`${res.subject}`
             }
           };
@@ -68,14 +68,14 @@ const Admindashboard = ({ route }) => {
       }
       else {
         const uplineData = {
-            service_id: 'service_6ubu4hr',
-            template_id: 'template_uo56jtl',
-            user_id: 'dne8aPihHWPGmRSbG',
+            service_id: 'service_061fz1g',
+            template_id: 'template_l9l5tbe',
+            user_id: 'h_qHWll01moUNdevx',
             template_params: {
                 'name': `${res.uplineName}`,
                 'email': `${res.uplineEmail}`,
                 'message': `${res.uplineMessage}`,
-                'reply_to': `support@wealthflowinvest.org`,
+                'reply_to': `wealthflowinvest@gmail.com`,
                 'subject':`${res.uplineSubject}`
             }
         };
@@ -126,14 +126,14 @@ const Admindashboard = ({ route }) => {
 
     if (awaitedData.amount !== undefined) {
        const data = {
-            service_id: 'service_6ubu4hr',
-            template_id: 'template_uo56jtl',
-            user_id: 'dne8aPihHWPGmRSbG',
+            service_id: 'service_061fz1g',
+            template_id: 'template_l9l5tbe',
+            user_id: 'h_qHWll01moUNdevx',
             template_params: {
                 'name': `${name}`,
                 'email': `${activeEmail}`,
                 'message': `Congratulations! your withdrawal $${awaitedData.amount} has been approved. confirm withdrawal of $${awaitedData.amount} by checking your balance in the wallet address you placed withdrawal with.`,
-                'reply_to': `support@wealthflowinvest.org`,
+                'reply_to': `wealthflowinvest@gmail.com`,
                 'subject':`successful withdrawal`
             }
       };
