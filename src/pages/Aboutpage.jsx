@@ -5,7 +5,6 @@ import About from '../components/about/About'
 import Footer from '../components/footer/Footer'
 import Contact from '../components/contact/Contact'
 import Faqcard from './Faqcard'
-import Asset from './Asset'
 const Aboutpage = () => {
   return (
     <main className='landpage gold-page'>
@@ -17,7 +16,6 @@ const Aboutpage = () => {
         </div>
       </section>
       <About />
-      <Asset />
       <Faqcard />
       <Contact />
       <Footer />
