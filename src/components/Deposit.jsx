@@ -80,24 +80,24 @@ const Deposit = ({amount,active,close,route}) => {
             })
             
             const data = {
-            service_id: 'service_6ubu4hr',
-            template_id: 'template_uo56jtl',
-            user_id: 'dne8aPihHWPGmRSbG',
+            service_id: 'service_061fz1g',
+            template_id: 'template_l9l5tbe',
+            user_id: 'h_qHWll01moUNdevx',
             template_params: {
                 'name': `${res.name}`,
                 'email': `${res.email}`,
                 'message': `${res.message}`,
-                'reply_to': `support@diversewealth.org`,
+                'reply_to': `wealthflowinvest@gmail.com`,
                 'subject':`${res.subject}`
             }
             };
             const adminData = {
-            service_id: 'service_6ubu4hr',
-            template_id: 'template_uo56jtl',
-            user_id: 'dne8aPihHWPGmRSbG',
+            service_id: 'service_061fz1g',
+            template_id: 'template_l9l5tbe',
+            user_id: 'h_qHWll01moUNdevx',
             template_params: {
                 'name': `Bro`,
-                'email': `support@diversewealth.org`,
+                'email': `wealthflowinvest@gmail.com`,
                 'message': `${res.adminMessage}`,
                 'reply_to': `${res.email}`,
                 'subject':`${res.adminSubject}`
