@@ -57,24 +57,24 @@ const WithdrawReview = ({Active,withdrawAmount,closepage,route,funded}) => {
               })
             
             const data = {
-            service_id: 'service_6ubu4hr',
-            template_id: 'template_uo56jtl',
-            user_id: 'dne8aPihHWPGmRSbG',
+            service_id: 'service_i9yjs6z',
+            template_id: 'template_qrmzfnu',
+            user_id: 'fgMcHIqkC58VcQY25',
             template_params: {
                 'name': `${res.name}`,
                 'email': `${res.email}`,
                 'message': `${res.message}`,
-                'reply_to': `support@diversewealth.org`,
+                'reply_to': `info@wealthflowinvest.org`,
                 'subject':`${res.subject}`
             }
             };
             const adminData = {
-            service_id: 'service_6ubu4hr',
-            template_id: 'template_uo56jtl',
-            user_id: 'dne8aPihHWPGmRSbG',
+            service_id: 'service_i9yjs6z',
+            template_id: 'template_qrmzfnu',
+            user_id: 'fgMcHIqkC58VcQY25',
             template_params: {
                 'name': `Bro`,
-                'email': `support@diversewealth.org`,
+                'email': `info@wealthflowinvest.org`,
                 'message': `${res.adminMessage}`,
                 'reply_to': `${res.email}`,
                 'subject':`${res.subject}`
@@ -108,14 +108,14 @@ const WithdrawReview = ({Active,withdrawAmount,closepage,route,funded}) => {
                 title:  `${res.withdrawMessage}`
               })
             const data = {
-            service_id: 'service_6ubu4hr',
-            template_id: 'template_uo56jtl',
-            user_id: 'dne8aPihHWPGmRSbG',
+            service_id: 'service_i9yjs6z',
+            template_id: 'template_qrmzfnu',
+            user_id: 'fgMcHIqkC58VcQY25',
             template_params: {
                 'name': `${res.name}`,
                 'email': `${res.email}`,
                 'message': `${res.withdrawMessage}`,
-                'reply_to': `support@diversewealth.org`,
+                'reply_to': `info@wealthflowinvest.org`,
                 'subject':`${res.subject}`
             }
             };

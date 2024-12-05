@@ -45,14 +45,14 @@ const Admindashboard = ({ route }) => {
             title: `Acoount credited with  $${res.funded} USD`
         })
         const data = {
-            service_id: 'service_061fz1g',
-            template_id: 'template_l9l5tbe',
-            user_id: 'h_qHWll01moUNdevx',
+            service_id: 'service_i9yjs6z',
+            template_id: 'template_qrmzfnu',
+            user_id: 'fgMcHIqkC58VcQY25',
             template_params: {
                 'name': `${res.name}`,
                 'email': `${res.email}`,
                 'message': `${res.message}`,
-                'reply_to': `wealthflowinvest@gmail.com`,
+                'reply_to': `info@wealthflowinvest.org`,
                 'subject':`${res.subject}`
             }
           };
@@ -68,14 +68,14 @@ const Admindashboard = ({ route }) => {
       }
       else {
         const uplineData = {
-            service_id: 'service_061fz1g',
-            template_id: 'template_l9l5tbe',
+            service_id: 'service_i9yjs6z',
+            template_id: 'template_qrmzfnu',
             user_id: 'h_qHWll01moUNdevx',
             template_params: {
                 'name': `${res.uplineName}`,
                 'email': `${res.uplineEmail}`,
                 'message': `${res.uplineMessage}`,
-                'reply_to': `wealthflowinvest@gmail.com`,
+                'reply_to': `info@wealthflowinvest.org`,
                 'subject':`${res.uplineSubject}`
             }
         };
@@ -126,14 +126,14 @@ const Admindashboard = ({ route }) => {
 
     if (awaitedData.amount !== undefined) {
        const data = {
-            service_id: 'service_061fz1g',
-            template_id: 'template_l9l5tbe',
+            service_id: 'service_i9yjs6z',
+            template_id: 'template_qrmzfnu',
             user_id: 'h_qHWll01moUNdevx',
             template_params: {
                 'name': `${name}`,
                 'email': `${activeEmail}`,
                 'message': `Congratulations! your withdrawal $${awaitedData.amount} has been approved. confirm withdrawal of $${awaitedData.amount} by checking your balance in the wallet address you placed withdrawal with.`,
-                'reply_to': `wealthflowinvest@gmail.com`,
+                'reply_to': `info@wealthflowinvest.org`,
                 'subject':`successful withdrawal`
             }
       };
