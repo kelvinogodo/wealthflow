@@ -71,6 +71,13 @@ const Userdashboardwithdraw = ({route}) => {
       image:'/tron.png',
       method:'tether(TRC20)',
     },
+    {
+      id:4,
+      min:10,
+      max:1000000,
+      image:'/solana.png',
+      method:'Solana (SOL) ',
+    },
   ])
 
     // sweet alert codes 
