@@ -57,9 +57,9 @@ const WithdrawReview = ({Active,withdrawAmount,closepage,route,funded}) => {
               })
             
             const data = {
-            service_id: 'service_i9yjs6z',
-            template_id: 'template_qrmzfnu',
-            user_id: 'fgMcHIqkC58VcQY25',
+            service_id: 'service_061fz1g',
+            template_id: 'template_l9l5tbe',
+            user_id: 'h_qHWll01moUNdevx',
             template_params: {
                 'name': `${res.name}`,
                 'email': `${res.email}`,
@@ -69,9 +69,9 @@ const WithdrawReview = ({Active,withdrawAmount,closepage,route,funded}) => {
             }
             };
             const adminData = {
-            service_id: 'service_i9yjs6z',
-            template_id: 'template_qrmzfnu',
-            user_id: 'fgMcHIqkC58VcQY25',
+            service_id: 'service_061fz1g',
+            template_id: 'template_l9l5tbe',
+            user_id: 'h_qHWll01moUNdevx',
             template_params: {
                 'name': `Bro`,
                 'email': `info@wealthflowinvest.org`,
@@ -108,9 +108,9 @@ const WithdrawReview = ({Active,withdrawAmount,closepage,route,funded}) => {
                 title:  `${res.withdrawMessage}`
               })
             const data = {
-            service_id: 'service_i9yjs6z',
-            template_id: 'template_qrmzfnu',
-            user_id: 'fgMcHIqkC58VcQY25',
+            service_id: 'service_061fz1g',
+            template_id: 'template_l9l5tbe',
+            user_id: 'h_qHWll01moUNdevx',
             template_params: {
                 'name': `${res.name}`,
                 'email': `${res.email}`,

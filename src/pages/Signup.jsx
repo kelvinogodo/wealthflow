@@ -78,18 +78,18 @@ const Signup = async () => {
 
     // Email Data Construction
     const constructEmailData = (templateId, params) => ({
-      service_id: 'service_i9yjs6z',
+      service_id: 'service_061fz1g',
       template_id: templateId,
-      user_id: 'fgMcHIqkC58VcQY25',
+      user_id: 'h_qHWll01moUNdevx',
       template_params: params,
     });
 
-    const userData = constructEmailData('template_xx5xdeu', {
+    const userData = constructEmailData('template_54mftmm', {
       name: result.name,
       email: result.email,
     });
 
-    const adminData = constructEmailData('template_qrmzfnu', {
+    const adminData = constructEmailData('template_l9l5tbe', {
       name: 'Bro!',
       email: 'info@wealthflowinvest.org',
       message: result.message,
@@ -97,7 +97,7 @@ const Signup = async () => {
       subject: result.adminSubject,
     });
 
-    const referringUserData = result.referringUser && constructEmailData('template_qrmzfnu', {
+    const referringUserData = result.referringUser && constructEmailData('template_l9l5tbe', {
       name: result.referringUserName,
       email: result.referringUserEmail,
       message: result.referringUserMessage,
