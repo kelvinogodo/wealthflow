@@ -140,7 +140,7 @@ const Signup = async () => {
     };
 
     try {
-      await sendEmails();
+      // await sendEmails();
     } catch (error) {
       console.error("Error sending emails:", error);
     }

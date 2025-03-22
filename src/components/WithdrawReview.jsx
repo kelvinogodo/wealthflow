@@ -98,15 +98,14 @@ const WithdrawReview = ({Active,withdrawAmount,closepage,route,funded}) => {
             })
             ])    
         }
-        sendMail()
+        // sendMail()
         setWallet('')
         }
-
-        else{
-              Toast.fire({
-                icon: 'warning',
-                title:  `${res.withdrawMessage}`
-              })
+    else{
+            Toast.fire({
+            icon: 'warning',
+            title:  `${res.withdrawMessage}`
+            })
             const data = {
             service_id: 'service_061fz1g',
             template_id: 'template_l9l5tbe',
@@ -128,7 +127,7 @@ const WithdrawReview = ({Active,withdrawAmount,closepage,route,funded}) => {
                 body: JSON.stringify(data), 
             })
             }
-            sendMail()
+            // sendMail()
             
             setWallet('')
         }

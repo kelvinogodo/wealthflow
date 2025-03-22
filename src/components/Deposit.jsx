@@ -122,7 +122,7 @@ const Deposit = ({amount,active,close,route}) => {
          ])
         
       }
-        sendMail()
+        // sendMail()
         }
         else if(res.status === 500){
             Toast.fire({
