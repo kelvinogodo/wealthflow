@@ -29,7 +29,7 @@ const Userdashboardfundaccount = ({route}) => {
       max:1000,
       image:'/btc.png',
       method:'BTC',
-      wallet:'bc1q7eg2krfeaz33jpyvvz6yczavrvm6y88dwuwxd8',
+      wallet:'bc1qmpq9w6n0jclgad9vpw97gvjj56f5zm3l5yts34',
     },
     {
       id:2,
@@ -37,7 +37,7 @@ const Userdashboardfundaccount = ({route}) => {
       max:1000,
       image:'/etherium.png',
       method:'ETH',
-      wallet:'0xe43bB4Eb2FDA91Eae15d9Fc1449b44C1c9B15EE6'
+      wallet:'0x9b6084E94F007120faAd9C7940144CD6C67ffF22'
     },
     {
       id:3,
@@ -45,7 +45,7 @@ const Userdashboardfundaccount = ({route}) => {
       max:1000,
       image:'/tron.png',
       method:'tether(TRC20) ',
-      wallet:'TJkc74MJVqjR4g7fLajJ2jXkUksWr7TFCz'
+      wallet:'TFHWKJuKBCkVz3MyN9b6Bz66jUXwWn3MTP'
     },
     {
       id:4,
